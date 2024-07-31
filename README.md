@@ -29,4 +29,21 @@ This project predicts medical insurance costs based on demographic and health-re
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/medical-insurance-cost-prediction.git
+   https://github.com/shubhu111/Medical_Insurance_Cost_Prediction_ML_Project.git
+   ```
+2.Navigate to the project directory:
+```bash
+cd medical-insurance-cost-prediction
+```
+3. Install the required packages:
+```bash
+pip install -r requirements.txt
+```
+4. Run the Jupyter Notebook:
+```bash
+jupyter notebook Medical Insurance Cost Prediction.ipynb
+```
+5. Load the trained model and make predictions with new data as shown in the notebook.
+
+## Conclusion
+The Medical Insurance Cost Prediction project successfully developed a machine learning model to estimate insurance costs based on demographic and health factors. By analyzing the data and using Random Forest Regressor and Linear Regression models, we found that the Random Forest model provided more accurate predictions. This project demonstrates effective data preprocessing, feature engineering, and model evaluation techniques, highlighting the practical application of machine learning in predicting insurance costs.
