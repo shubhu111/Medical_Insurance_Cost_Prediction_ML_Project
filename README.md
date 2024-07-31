@@ -3,23 +3,28 @@ This project predicts medical insurance costs based on demographic and health-re
 
 ## Key Features
 1. **Data Preprocessing**
-   - Handling missing values and outliers
-   - Exploratory Data Analysis (EDA)
-   - Encoding categorical variables
-
+   - Imported necessary libraries including pandas, numpy, matplotlib, seaborn, and scikit-learn.
+   - Loaded the dataset and performed initial cleaning.
+   - Conducted Exploratory Data Analysis (EDA) using visualizations to understand the distribution and relationships within the data.
+   - Identified and removed outliers from the "charges" column using z-scores.
 2. **Feature Engineering**
-   - One-hot encoding
-   - Data splitting into training and testing sets
+   - Applied one-hot encoding to categorical variables such as gender, region, and smoking status.
+   - Split the data into training and testing sets with an 80-20 split.
 
 3. **Model Training**
-   - Trained using Random Forest Regressor and Linear Regression
-   - Model evaluation based on R² score, MAE, and RMSE
+   - mplemented and trained two models: Random Forest Regressor and Linear Regression.
+   - The models were evaluated on the test set, with the Random Forest Regressor demonstrating superior performance.
 
-4. **Model Persistence**
-   - Saved trained models for future use
+4. **Model Evaluation**
+   - Evaluated model performance using metrics such as R² score, Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE).
+   - The Random Forest model showed better results in terms of accuracy and handling of feature importance.
+
+5. **Model Persistence**
+   - The trained Random Forest model was saved using the `joblib` library for future predictions.
+   - Demonstrated the process of loading the saved model and making predictions on new data.
 
 5. **Predictions**
-   - Example of predictions using the saved model
+   - Provided an example of making predictions using the saved Random Forest model.
 
 ## Files
 - `Medical Insurance Cost Prediction.ipynb`: Jupyter Notebook with the complete workflow
