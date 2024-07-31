@@ -47,3 +47,6 @@ jupyter notebook Medical Insurance Cost Prediction.ipynb
 
 ## Conclusion
 The Medical Insurance Cost Prediction project successfully developed a machine learning model to estimate insurance costs based on demographic and health factors. By analyzing the data and using Random Forest Regressor and Linear Regression models, we found that the Random Forest model provided more accurate predictions. This project demonstrates effective data preprocessing, feature engineering, and model evaluation techniques, highlighting the practical application of machine learning in predicting insurance costs.
+
+## License
+This project is licensed under the MIT License.
