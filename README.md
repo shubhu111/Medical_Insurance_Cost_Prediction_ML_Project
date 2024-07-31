@@ -16,7 +16,6 @@ This project predicts medical insurance costs based on demographic and health-re
    - The models were evaluated on the test set, with the Random Forest Regressor demonstrating superior performance.
 
 4. **Model Evaluation**
-   - Evaluated model performance using metrics such as R² score, Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE).
    - The Random Forest model showed better results in terms of accuracy and handling of feature importance.
 
 5. **Model Persistence**
